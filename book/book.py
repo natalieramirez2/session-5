@@ -10,8 +10,6 @@
 # 3. Practice using the __init__ constructor
 # 4. Implement instance methods
 # 5. Create string representation of objects
-
-class Book:
     """
     A class representing a book in a library.
     
@@ -32,7 +30,7 @@ class Book:
         - Set the pages attribute to the pages parameter
         - Set is_available to True by default (all new books start as available)
         """
-        pass  # Remove this line when you start implementing
+        pass  # 
     
     def checkout(self):
         """
@@ -42,8 +40,7 @@ class Book:
         - If the book is available, set is_available to False and return True
         - If the book is not available, return False
         """
-        pass  # Remove this line when you start implementing
-    
+        pass  # 
     def return_book(self):
         """
         Mark the book as returned (available).
@@ -52,7 +49,7 @@ class Book:
         - Set is_available to True (the book is now available)
         - Return True to indicate successful return
         """
-        pass  # Remove this line when you start implementing
+        pass  # 
     
     def get_info(self):
         """
@@ -66,8 +63,7 @@ class Book:
         
         Example format: "Harry Potter by J.K. Rowling (300 pages) - Available"
         """
-        pass  # Remove this line when you start implementing
-
+        pass  # 
 
 # Test your implementation
 def test_book_class():
